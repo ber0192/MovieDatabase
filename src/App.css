@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App-link {
+  color: #09d3ac;
+}
+
 .App-logo {
   height: 40vmin;
 }
@@ -17,6 +21,243 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.buttonBack {
+  color: #B0B0B0;
+  float: left;
+}
+
+.buttonBack:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.buttonBackFavourites {
+  color: #303030;
+  text-align: center;
+}
+
+.buttonBackFavourites:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.buttonFavourites {
+  color: #B0B0B0;
+  float: right;
+}
+
+.buttonFavourites:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.detailHeaders {
+  font-weight: 600;
+}
+
+.favouriteStar {
+  float: left;
+  padding-top: 1em;
+  cursor: pointer;
+  color: white;
+}
+
+.favourites {
+  width: 8%;
+  height: 3em;
+  margin-left: .5em;
+}
+
+.favouriteMoviesList {
+  width: 50%;
+  margin: auto;
+}
+
+.favouriteMoviesHeader {
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 3em;
+  background-color: #F5F5F5;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  color: #303030;
+}
+
+.favouriteMoviesTableHeader {
+  background-color: #F5F5F5;
+  border: 1px solid gray;
+  padding-left: 2em;
+  font-weight: 800;
+  color: #606060
+}
+
+.favouriteMovie {
+  font-size: 2em;
+  height: 150px;
+  border: 1px solid gray;
+  margin: auto;
+  background-color: #F5F5F5;
+}
+
+.favouriteMoviesImages {
+  width: 160px;
+  height: 150px;
+}
+
+.filmHeader {
+  background-color: #383838;
+}
+
+.filmDetailsBottom {
+  background-color: #B0B0B0;
+}
+
+.iconCenter {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.movieDetail {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.movieDetailDiv {
+  padding-top: 2em;
+}
+
+.movieList {
+  padding-top: 2em;
+  margin-left: 20%;
+  padding-bottom: 4em;
+}
+
+.movie {
+  padding: 1em;
+}
+
+.movieTitle {
+  padding: .5em;
+  font-size: 1.7em;
+  color: #383838;
+}
+
+.movieTitle:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.movieImage {
+  width: 60%;
+}
+
+.movieName {
+  font-size: 3em;
+  text-align: left;
+  color: white;
+}
+
+.movieTitleFavourites {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.movieTitleFavourites:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.movieYear {
+  font-size: .7em;
+}
+
+.noPadding {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.noMovie {
+  font-size: 2em;
+  margin-left: -25%;
+  text-align: center;
+}
+
+.searchButton {
+  text-align: center;
+  margin-top: .5em;
+}
+
+.search {
+  width: 8%;
+  height: 3em;
+  margin-right: .5em;
+}
+
+.searchDiv {
+  text-align: center;
+}
+
+.smallDetails {
+  font-size: 0.4em;
+  color: #B0B0B0;
+}
+
+.starIcon {
+  color: yellow;
+  font-size: 2em;
+  position: absolute;
+}
+
+.starIcon:hover {
+  cursor: pointer;
+}
+
+.searchInput {
+  margin: auto;
+  width: 30%;
+  height: 3em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.starIconFavouriteMovie {
+  color: yellow;
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+}
+
+.starIconBorderFavouriteMovie {
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+}
+
+.starIconBorderFavouriteMovie:hover {
+  cursor: pointer;
+}
+
+.starIconFavouriteMovie:hover {
+  cursor: pointer;
+  color: transparent;
+}
+
+.textDetails {
+  font-size: 1.3em;
+  color: #303030;
+  text-align: left;
+}
+
+.title {
+  padding-top: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
